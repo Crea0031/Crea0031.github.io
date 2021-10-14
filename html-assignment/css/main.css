@@ -29,8 +29,8 @@ a:hover{
     color:slategray;
 }
 .notes-input:focus {
-color: rgb(255, 238, 0);}
+color: yellow;}
 .practice-input:focus {
-color: rgb(255, 238, 0);} 
+color: yellow;} 
 .home-input:focus {
-color: rgb(255, 238, 0);}
+color: yellow;}
