@@ -28,7 +28,7 @@ span{
 a:hover{
     color:slategray;
 }
-.notes-input:focus {
+.notes-input:focus {    
 color: yellow;}
 .practice-input:focus {
 color: yellow;} 
