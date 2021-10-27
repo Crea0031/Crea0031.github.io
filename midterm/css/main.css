@@ -50,3 +50,103 @@ table {
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* This is the start of my CSS code */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px; /* makes the math easier with ems and rems */
+    color: black;
+    background: #aad4cf;
+}
+h1{
+	font-size: 4rem;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2.5rem;
+}
+p{ 
+    font-size: 1.6rem;
+	margin-left: 30px;
+
+}
+#container{
+    width: 1024px;
+    margin: 0 auto; 
+}
+.header-image{
+    width:100%; 
+}
+article{
+    background-color: #d4e8e7;
+}
+
+.h1{
+	color: white;
+	margin-left: 50%;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* NAV */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+nav{
+    height: 80px;
+}
+
+nav li{
+    float:left; 
+}
+
+nav a{
+    display:block; 
+    text-align: center;
+    margin: 0 5px;
+    text-decoration: none; 
+    width:100%;
+    height: 80px;
+}
+
+nav li a span{ 
+    display: block;
+    float: center;
+	border-left: black;
+    font-size: 3rem; 
+    line-height: 2.5em; 
+    color:black;
+}
+
+nav a:hover, .current{
+    background: whitesmoke;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Body */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+article p img{
+    float:left;
+}
+
+#image{ 
+	width: 20%;
+	height: auto;
+  }
+  form{
+	  margin-left: 30px;
+  }
+
+  ul .faq {
+	  margin: 30px
+  }
+
+
+
+
+
+
+
+
+footer{
+	float: right;
+	font-size: 1.5rem;
+}
