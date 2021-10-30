@@ -7,13 +7,13 @@
     <link href="css/main.css" rel="stylesheet">
   </head>
   <body>
-    <div id="container">
+    
+   <div id="container">
       <header> 
         <h1 class="h1">Lone Starfish</h1>
-        <section>
+        <section class="container">
           <img src="images/lone-starfish-wide.jpg" alt="lone-starfish-wide">
         </section>
-    <article>
         <nav>
           <ul>
             <li>
@@ -35,7 +35,7 @@
       </header>
       <main>
         <article>
-          <h2> Life of a Starfish</h2>
+          <h2 class="h2"> Life of a Starfish</h2>
           <p>
             <img href="#" id="image" src="images/lone-starfish.jpg" alt="lone-starfish">
           </p>
@@ -62,51 +62,50 @@
             barred danio. Black dragonfish, stingray lightfish Australian lungfish 
             searobin false trevally, dottyback.
           </p>
-        </article>
-        <article>
-          <h3>Facts About Starfish</h3>
-          <ul class="faq">
+         </article>
+          <div class="facts">
+            <h3 class="h3">Facts About Starfish</h3>
+            <ul class="a">
             <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
             <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra. </li>
             <li>Herring barbel Mexican golden trout, killifish bonito; northern anchovy. </li>
             <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
-          </ul>
-        </article>
-        <article>
-            <h3> Contact to learn more</h3>
-            <form action="index.html" method="get"> 
+            </ul>
+          </div>
+            <div>
+              <h3 class="h3"> Contact to learn more</h3>
+              <form action="index.html" method="get" class="b"> 
               <p>
                 <label for="fullname">Name</label>
-                <input id="fullname">
+                <input type="text" id="fullname">
               </p>
               <p> 
                <label for="email">Email</label>
-               <input id="email" type="text">
+               <input type="text" id="email">
               </p>
               <p>
                 <label for="message">Your Message</label>
-                <textarea id="message"></textarea>
+                <textarea type="text" id="message"></textarea>
               </p>
               <p> 
-          
                 <span> Would you like to visit the starfish?</span>
-                <label for="yes">Yes</label>
+                <div>
+                <label class="radio" for="yes">Yes</label>
                 <input type="radio" id="yes" name="starfish" value="yes">
-                <label for="no"> No</label>
+                <label class="radio" for="no"> No</label>
                 <input type=radio id="no" name="starfish" value="no">
-                <label for="maybe"> Maybe</label>
+                <label class="radio" for="maybe"> Maybe</label>
                 <input type=radio id="maybe" name="starfish" value="maybe">
               </p>
               <p> 
-                <button type="send">Send</button>
+                <button class="button" type="send">Send</button>
               </p>
-            </form>
-         </article>
-        </article>
-      </main>
-      <footer> 
-        <small>&copy;  Lone Starfish.</small> 
-      </footer>
-    </div>
+              </form>
+            </div>
+       
+              <footer> 
+                <small>&copy;  Lone Starfish.</small> 
+              </footer>
+       </main>
   </body>
 </html>
