@@ -108,7 +108,7 @@ nav{
 }
 
 nav li{
-    width: 33%; 
+    width: 33.2%; 
     text-align: center;
     float: left;
     border-right: 1px solid black;
@@ -132,8 +132,9 @@ nav li a span{
     color:black;
 }
 
-nav a:hover, .current{
+nav a:hover {
     background: whitesmoke;
+    display: block;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -200,12 +201,16 @@ textarea {
     padding: 5px 5px;
     text-align: center;
 }
+.button:hover{
+    background: whitesmoke;
+    display: block;
+}
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* FOOTER */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 footer{
 	text-align: right;
     padding-bottom: 50px;
-    padding-right: 20px;
+    padding-right: 50px;
 	font-size: 1.5rem;
 }
