@@ -104,13 +104,19 @@ p{
 nav{
     height: 60px;
     width: 100%;
-    overflow: auto;
+   /* overflow: auto;*/
 }
 
 nav li{
-    float:left; 
+    width: 33%; 
+    text-align: center;
+    float: left;
     border-right: 1px solid black;
     
+}
+
+.contact{
+    border-right: 0;
 }
 nav a{
     display:inline-block; 
@@ -120,8 +126,7 @@ nav a{
 }
 
 nav li a span{ 
-    display: block;
-    float: center;
+    display:inline-block;
     font-size: 2.5rem; 
     line-height: 2.5em; 
     color:black;
@@ -199,6 +204,8 @@ textarea {
 /* FOOTER */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 footer{
-	float: right;
+	text-align: right;
+    padding-bottom: 50px;
+    padding-right: 20px;
 	font-size: 1.5rem;
 }
