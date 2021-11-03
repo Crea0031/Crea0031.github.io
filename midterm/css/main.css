@@ -82,18 +82,19 @@ p{
 .h1{
 	color: white;
     position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 25%;
+    left: 39%;
+    /*transform: translate(-50%, -50%);*/
   }
 .h2 {
     margin-left: 30px;
     margin-top: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 .h3 {
     margin-left: 30px;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 
@@ -142,11 +143,12 @@ nav a:hover {
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 article p img{
     float:left;
-    margin-right: 10px;
+    margin-right: 25px;
+    margin-bottom: 15px;
 }
 
 #image{ 
-	width: 18%;
+	width: 20%;
 	height: auto;
   }
  
@@ -159,6 +161,12 @@ article p img{
   .facts {
     font-size: 1.6rem;
     margin-top: 30px;
+    line-height: 2rem;
+  }
+  .life{
+      padding-right: 20px;
+      line-height: 2rem;
+
   }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* FORM */
@@ -166,7 +174,7 @@ article p img{
 form.b{
     width: 85%;
     border: 1px solid black;
-    padding: 50px;
+    padding: 20px;
     margin: 20px auto;
 }
 input[type=text], select {
@@ -179,7 +187,7 @@ input[type=text], select {
 }
 textarea {
     width: 100%;
-    padding: 12px 20px;
+    padding: 40px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid white;
