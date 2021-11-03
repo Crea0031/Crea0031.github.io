@@ -24,10 +24,56 @@
           </ul>
         </nav>
     </header>
+
+    <!-- .......................................................... -->
+    <!-- .......................................................... -->
+    <!-- .......................................................... -->
+    <!-- .......................................................... -->
+    <!-- Below is just filler text, please disregard for assignment -->
+    <!-- .......................................................... -->
+    <!-- .......................................................... -->
+    <!-- .......................................................... -->
+    <!-- .......................................................... -->
+
+
+    <h4 class="h4">
+      <q>"Send"</q> button on homepage leads the form to here to show the form is funcational.
+    </h4>
+    <p class="p4">
+     This is just a test page, please disregard.
+    </p>
     <main>
-      <p> 
-        This is just a test page, please disregard.
-      </p>
+      <form action="contact.html" method="get" class="b"> 
+        <!-- Form leads to the contact page "unencrypted" to show that the form is funcational -->
+        <p>
+          <label for="fullname">Name</label>
+          <input type="text" id="fullname">
+        </p>
+        <p> 
+         <label for="email">Email</label>
+         <input type="text" id="email">
+        </p>
+        <p>
+          <label for="message">Your Message</label>
+          <textarea id="message" rows="10"></textarea>  
+          <!-- adding row="10" to increase the size of the text area without needing to adjust the padding inside the box-->
+        </p>
+        <p> 
+          <span> Would you like to visit the starfish?</span>
+          <div>
+          <label class="radio" for="yes">Yes</label>
+          <input type="radio" id="yes" name="starfish" value="yes">
+          <label class="radio" for="no"> No</label>
+          <input type=radio id="no" name="starfish" value="no">
+          <label class="radio" for="maybe"> Maybe</label>
+          <input type=radio id="maybe" name="starfish" value="maybe">
+          </div>
+        <p> 
+          <button class="button">Send</button>
+        </p>
+      </form>
+
+
     </main>
     <footer> 
       <small>&copy; Lone Starfish</small> 

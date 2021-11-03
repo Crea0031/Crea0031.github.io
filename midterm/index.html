@@ -11,10 +11,10 @@
    <div id="container">
       <header> 
         <h1 class="h1">Lone Starfish</h1>
-        <div class="container">
+        <div class="container">   <!-- this is being used to change the colour behind the main body of text in CSS-->
           <img src="images/lone-starfish-wide.jpg" alt="lone-starfish-wide">
         </div>
-          <nav>
+          <nav><!-- Nav bar start-->
             <ul>
               <li>
               <a href="index.html">
@@ -32,7 +32,8 @@
               </a>
               </li>
             </ul>
-          </nav>
+          </nav> 
+          <!-- Nav bar end -->
       </header>
       <main>
         <article>
@@ -75,7 +76,8 @@
           </div>
             <div>
               <h3 class="h3"> Contact to learn more</h3>
-            <form action="index.html" method="get" class="b"> 
+            <form action="contact.html" method="get" class="b"> 
+              <!-- Form is currently leading to the contact page unencrypted to show that the form is funcational -->
               <p>
                 <label for="fullname">Name</label>
                 <input type="text" id="fullname">
@@ -86,7 +88,8 @@
               </p>
               <p>
                 <label for="message">Your Message</label>
-                <textarea id="message"></textarea>
+                <textarea id="message" rows="10"></textarea>  
+                <!-- adding row="10" to increase the size of the text area without needing to adjust the padding inside the box-->
               </p>
               <p> 
                 <span> Would you like to visit the starfish?</span>
