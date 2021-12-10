@@ -25,11 +25,11 @@
      </ul>
     </nav> 
 
-    <form action="contact.html" method="get" class="search"> 
-      <p>
-        <input type="text" id="textbox" placeholder="Search"required>
-        <button class="button"><i class="icon icon-zoom"></i></button>
-      </p>
+    <form class="search" action="contact.html" method="get" > 
+      <div>
+        <input type="text" id="searchbox" placeholder="Search"required>
+        <button class="searchbutton"><i class="icon icon-zoom"></i></button>
+      </div>
     </form>
 </article> 
 <!-------------------------- End of Nav ----------------------------------->
@@ -37,29 +37,27 @@
 <!---------------------------- Body --------------------------------------->
 
 <main>
-    <header class="banner">
-    <div>
-      <h1 class="title">Welcome to Three Star Media</h1>     
-    </div>    
-    <p>
-        <img src="images/main-banner.jpg" alt="main-banner" id="bannerimg">              
-    </p>
-      <p class="home_text">
+    <header>
+    <div class="banner">
+      <img class="banner_image" src="images/main-banner.jpg" alt="main-banner" id="bannerimg">              
+      <div class="title">
+      <h1 >Welcome to Three Star Media</h1>    
+      <br> 
+      <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
         exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
         irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
         deserunt mollit anim id est laborum.
+        <br>
+        <button class="connect" type="submit"> Connect with us<i class="icon icon-right"></i> </button> 
       </p>
-      <p>
-        <a href="contact.html">
-        <span>Connect with Us</span>
-        </a>
-      </p>
+      </div>   
+    </div>
     </header>
     <article class="about">
-    <img src="images/about-us.jpg" alt="about-us">  
+    <img class="about_image" src="images/about-us.jpg" alt="about-us">  
     <h2>About Us</h2>
     <p>  
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
@@ -75,105 +73,94 @@
     <!-------------------------- Digital ----------------------------------->
 
     <section class="digital">
-      <img src="images/digital.jpg" alt="digital">
+      <img id="digital_image" src="images/digital.jpg" alt="digital">
       <h3>Digital Transformation</h3>
       <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora animi
           mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti
           explicabo nisi?
       </p>
-      <p>
-          <a href="index.html">
-          <span>Digital Plans</span>
-          </a>
-      </p>
+      <div>
+        <button class="service_button" type="submit"> Digital Plans<i class="icon icon-right"></i> </button> 
+    </div>
     </section>
     <!-------------------------- Marketing ----------------------------------->
     <section class="marketing">
-      <img src="images/marketing.jpg" alt="marketing">
+      <img id="marketing_image" src="images/marketing.jpg" alt="marketing">
       <h3>Marketing</h3>
       <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora animi
           mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti
           explicabo nisi?
       </p>
-      <p>
-          <a href="index.html">
-          <span>Marketing</span>
-          </a>
-      </p>
+      <div>
+        <button class="service_button" type="submit"> Marketing Plans<i class="icon icon-right"></i> </button> 
+    </div>
     </section>
     <!-------------------------- Video ----------------------------------->
     <section class="video">
-      <img src="images/video.jpg" alt="video">
+      <img id="video_image" src="images/video.jpg" alt="video">
       <h3>Video Production</h3>
       <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora animi
           mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti
           explicabo nisi?
       </p>
-      <p>
-          <a href="index.html">
-          <span>Video Plans</span>
-          </a>
-      </p>
+      <div>
+        <button class="service_button" type="submit"> Video Plans<i class="icon icon-right"></i> </button> 
+    </div>
     </section>
     <!-------------------------- Web ----------------------------------->
 
     <section  class="web">
-      <img src="images/web.jpg" alt="web">
+      <img id="web_image" src="images/web.jpg" alt="web">
       <h3>Web Development</h3>
       <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora animi
           mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti
           explicabo nisi?
       </p>
-      <p>
-          <a href="index.html">
-          <span>Web Plans</span>
-          </a>
-      </p>
+      <div>
+        <button class="service_button" type="submit">Web Plans<i class="icon icon-right"></i> </button> 
+    </div>
     </section>
     <!-------------------------- Print ----------------------------------->
 
     <section class="print">
-      <img src="images/print.jpg" alt="print">
+      <img id="print_image" src="images/print.jpg" alt="print">
       <h3>Print</h3>
       <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora animi
           mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti
           explicabo nisi?
       </p>
-      <p>
-          <a href="index.html">
-          <span>Print Plans</span>
-          </a>
-      </p>
+      <div>
+        <button class="service_button" type="submit">Print Plans<i class="icon icon-right"></i> </button> 
+    </div>
     </section>
+  </article> 
     <!-------------------------- Vision ----------------------------------->
 
     <section class="vision">
-        <img src="images/vision.jpg" alt="vision">
+        <img class="vision_image" src="images/vision.jpg" alt="vision">
         <h3>Our Vision</h3>
         <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora animi
             mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti
             explicabo nisi?
         </p>
-        <p>
-            <a href="index.html">
-            <span>Print Plans</span>
-            </a>
-        </p>
+        <div>
+          <button class="visionbutton" type="submit">Print Plans<i class="icon icon-right"></i> </button> 
+      </div>
     </section>
-  </article> 
+  
   <article id="team">
       <h2>Our Team</h2>
     <!-------------------------- John ----------------------------------->
     <section class="john">
       <img src="images/john.jpg" alt="john">
       <div class="line">
-      <h3>John Doe</h3>
+      <h3 id="line">John Doe</h3>
         <h4>CEO and Co-owner</h4>
         <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora animi
@@ -186,7 +173,7 @@
 
     <section class="bob">
       <img src="images/bob.jpg" alt="bob">
-      <h3>Bob Rite</h3>
+      <h3 id="line">Bob Rite</h3>
         <h4>CEO and Co-owner</h4>
           <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora animi
@@ -194,34 +181,33 @@
               explicabo nisi?
           </p>
     </section>
+ <!-------------------------- Contact ----------------------------------->
   </article> 
   <article id="contact">
     <h2> Contact Us</h2>
-
-      <h3> Send us a message</h3>
-    <!-------------------------- Form ----------------------------------->
-
-    <form action="contact.html" method="get" class="b"> 
+    <h4> Send us a message</h4>
+    <form action="contact.html" method="get" class="form"> 
       <p>
-          <label for="fullname">Name</label>
-          <input type="text" id="fullname" required>
+       <label for="fullname">Name</label>
+       <input type="text" id="fullname" required>
       </p>
       <p> 
-          <label for="email">Email</label>
-          <input type="text" id="email" required>
+       <label for="email">Email</label>
+       <input type="text" id="email" required>
       </p>
       <p>
-        <label for="message">Your Message</label>
-          <textarea id="message" rows="10"></textarea>  
-          <!-- adding row="10" to increase the size of the text area without needing to adjust the padding inside the box-->
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="10"></textarea>  
+        <!-- adding row="10" to increase the size of the text area without needing to adjust the padding inside the box-->
       </p>
-      <p> 
-        <button class="button">Send</button>
-      </p>
+      <div> 
+        <button id="submitbutton">Send</button>
+      </div>
     </form>
     <!-------------------------- Table ----------------------------------->
+  <section>
     <h3> Hours of operation</h3>
-    <table>
+    <table class="table">
       <thead>
         <tr >
           <th>Days</th>
@@ -239,19 +225,21 @@
         </tr>
       </tbody>    
     </table>
+  </section>
 
     <!-------------------------- Map ----------------------------------->
-
+    <h3>Location</h3>
     <div class="mapEmbed">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11216.227095672693!2d-75.757677!3d45.3476662!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce04540b77e3bb%3A0x9e246d934b6c6ed!2sAlgonquin%20College%20of%20Applied%20Arts%20and%20Technology!5e0!3m2!1sen!2sca!4v1637855122896!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11216.227095672693!2d-75.757677!3d45.3476662!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce04540b77e3bb%3A0x9e246d934b6c6ed!2sAlgonquin%20College%20of%20Applied%20Arts%20and%20Technology!5e0!3m2!1sen!2sca!4v1637855122896!5m2!1sen!2sca" 
+      width="750" height="450" style="border:10;" allowfullscreen="" loading="lazy"></iframe>
     </div>
   </article>
-
-  <footer> 
-    <small>&copy;Copyright Three Star Media, 2020</small> 
-      <p> all images are taken from <u>Unsplash</u></p>
-  </footer>
 </main>
-
+  <footer class="footer"> 
+    <small>&copy;Copyright Three Star Media, 2020</small> 
+    <br>  
+    <br>
+    <small> all images are taken from <u>Unsplash</u></small>
+  </footer>
 </body>
 </html>

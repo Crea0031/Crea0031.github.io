@@ -50,34 +50,52 @@ table {
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* This is the start of my CSS code */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
 
 html{
     font-family:  'Open Sans', san-serif;
-    margin: 0 auto; 
-    font-size: 20px; /* makes the math easier with ems and rems */
+    font-size: 10px; /* makes the math easier with ems and rems */
     color: black;
     }
     body{
-    width:1200px;
-    margin: 0 auto; 
-    background-color: yellow;
+        width:100vw;
+        height:100vh;
     }
 h1{
-	font-size: 7rem;
+	font-size: 10rem;
+    padding: 10px;
+    font-weight: bold;
 }
 h2{
-    font-size: 3rem;
+    font-size: 5rem;
+    padding: 10px;
+    font-weight: 700;
 }
 h3{
     font-size: 2.5rem;
+    padding: 10px;
 }
 h4{
     font-size: 2rem;
+    padding: 10px;
+}
+h5{
+    font-size: 1.5rem;
+    padding: 10px;
 }
 p{ 
     font-size: 1.6rem;
+    padding: 10px;
 }
+button {
+    background-color:#222;
+    color:white;
+    border:none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:2em;
+    }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* nav */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -86,11 +104,13 @@ p{
     height: 100px;
     width: 100%;
     background: #c78c06;
+
+
 }
 nav a{
     background-color: #222;
     width: 100%;
-
+    font-size: 2em;
 }
 ul{
     display: block;
@@ -99,64 +119,177 @@ ul{
 
 nav ul li a {
     text-decoration: none;
-    padding: 10px 20px;
     display: block;
     color:#c78c06;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 nav a:hover {
-    background: whitesmoke;
+    background: #ffe6ac;
     display: block;
 }
 .home{
     background-color:#c78c06;
     color: #222;
+
 }
 .navbar{
     background-color: #222;
     position: relative;
 }
 .search{
-    width: 100%;
-    display: block;
+    flex-wrap:wrap;
+    flex-direction: row;
+    width:100%-2px;
+    padding:10px;
+    justify-content:center;
+}
+#searchbox{
+    padding:10px;
+    font: size 2.5em;;
+    float:left;
+    width: 90%;
+    height: 25px;
+}
+.icon-zoom{
+    color:#c78c06;
+    border: 2px solid #c78c06;
+    display:flex;
+    padding:10px;
+    font-size:1em;
+    position: relative;
+
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* Header */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .banner{
-    background: greenyellow;
+    background: #ffe6ac;
+    width:100%;
 }
-#bannering{
+.banner_image {
+    width:100%;
     object-fit: contain;
 }
 .title{
+    background-color:rgba(34, 34, 34, 0.619);
     position:absolute;
+    height: 500px;
+    top: 50%;
+    width: 100%;
+    color:white;
+    display:block;
+}
+/* .banner :nth-child(3){
+    position: absolute;
+    color: white; 
+} */
+
+.connect{
+    background-color:#c78c06;
+    display:block;
+    position: absolute;
+    top:70%;
+    color:#222;
+    border: none;
+    padding: 30px 15px;
+    text-align: center;
+    font-size:1.5em;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* About */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .about{ 
-    background-color: green;
+    background-color: #ffe6ac;
+    padding: 10px;
+}
+.about_image{
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 98%;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* Our Services */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-
+#services{
+    padding: 10px;
+}
+.service_button{
+    background-color:#222;
+    border:none;
+    color:white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:2em;
+    margin:10px;
+    }
 .digital{
-    background-color: red;
+    background-color: #ffe6ac;
+    margin-bottom: 10px;
+}
+#digital_image{
+    position:relative;
+    top: 50%;
+    width: 100%;
 }
 .marketing{
-    background-color: red;
+    background-color: #ffe6ac;
+    margin-bottom: 10px;
+}
+#marketing_image{
+    position:relative;
+    top: 50%;
+    width: 100%;
 }
 .video{
-    background-color: red;
+    background-color: #ffe6ac;
+    margin-bottom: 10px;
+}
+#video_image{
+    position:relative;
+    top: 50%;
+    width: 100%;
 }
 .web{
-    background-color: red;
+    background-color: #ffe6ac;
+    margin-bottom: 10px;
+}
+#web_image{
+    position:relative;
+    top: 50%;
+    width: 100%;
 }
 .print{
-    background-color: red;
+    background-color: #ffe6ac;
+    margin-bottom: 10px;
 }
+#print_image{
+    position:relative;
+    top: 50%;
+    width: 100%;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Vision */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.vision{
+    background-color: aqua;
+}
+.banner_image {
+    width:100%;
+    object-fit: contain;
+}
+
+/* .vision_text{
+    position:relative;
+    top:-300px;
+    color:white;
+    display:inline-block;
+} */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* Team */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -164,16 +297,75 @@ nav a:hover {
 #team{
     background-color: royalblue;
 }
+.john{
+    background-color:#ffe6ac;
+}
+.bob {
+    background-color:#ffe6ac ;
+}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* Contact */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#contact{
+    background-color: white;
+}
+.form{
 
+}
+#fullname{
+    display:flex;
+    width:95%;
+}
+#email{
+    display:flex;
+    width:95%;
+}
+#message{
+    display:flex;
+    width:95%;
+}
+#submitbutton{
+    background-color:#222;
+    padding: 5px;
+    color:#c78c06;
+    display:flex;
+    margin: 10px;
+    font-size:2em;
+}
+.table{
+    background-color:white;
+    position: relative;
+    bottom:10px;
+    left: 10px;
+}
+thead{
+    border: 1px solid black;
+}
+table{
+    width:95%;
+    border: 1px solid black;
+}
+th{
+    background-color:#ffe6ac;
+    border: 1px solid black;
+    padding:10px;
+}
+td{
+    border: 1px solid black;
+    padding:10px;
+}
+/* .mapEmbed{
+    width: 100%;
+} */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* Footer */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 footer{
-    background-color: saddlebrown;
+    background-color: #222;
+    color: #c78c06;
+    padding: 10px;
 }
 
 
