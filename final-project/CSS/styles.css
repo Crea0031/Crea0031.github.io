@@ -280,7 +280,6 @@ nav a:hover {
 /* Vision */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .vision{
-    background-color: aqua;
     background-image: url(../images/vision.jpg);
     background-position: center center;
     background-size: cover;
