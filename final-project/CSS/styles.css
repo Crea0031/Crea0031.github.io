@@ -58,22 +58,23 @@ html{
     color: black;
     }
     body{
-        width:100vw;
-        height:100vh;
+    width:100vw;
+    height:100vh;
     }
 h1{
 	font-size: 10rem;
     padding: 10px;
-    font-weight: bold;
+    font-weight: 800;
 }
 h2{
     font-size: 5rem;
     padding: 10px;
-    font-weight: 700;
+    font-weight: 800;
 }
 h3{
     font-size: 2.5rem;
     padding: 10px;
+    font-weight: 800;
 }
 h4{
     font-size: 2rem;
@@ -81,14 +82,18 @@ h4{
 }
 h5{
     font-size: 1.5rem;
-    padding: 10px;
+    font-weight: bold;
+    border-bottom: 2px solid #c78c06;
+    border-color:#c78c06;
+    padding-left: 10px; 
 }
 p{ 
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     padding: 10px;
+    line-height: 20px;
 }
-icon-right{
-    padding: 10px;
+.icon-right{
+    padding-left: 10px;
 }
 button {
     background-color:#222;
@@ -170,6 +175,7 @@ nav a:hover {
 .banner{
     background: #ffe6ac;
     width:100%;
+    
 }
 .banner_image {
     width:100%;
@@ -179,7 +185,7 @@ nav a:hover {
     background-color:rgba(34, 34, 34, 0.619);
     position:absolute;
     height: 500px;
-    top: 50%;
+    top: 90%;
     width: 100%;
     color:white;
     display:block;
@@ -282,8 +288,10 @@ nav a:hover {
 .vision{
     background-image: url(../images/vision.jpg);
     background-position: center center;
-    background-size: cover;
-    padding:200px;
+    background-size:cover;
+    padding:50px 0px 50px 10px;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
 }
 .vision_image {
     
@@ -296,27 +304,33 @@ nav a:hover {
     text-align: center;
     display: inline-block;
     font-size: 2.5em;
-    margin:20px;
+    margin:10px;
 }
 
-/* .vision_text{
+.vision_text{
     position:relative;
-    top:-300px;
+    top:10px;
     color:white;
     display:inline-block;
-} */
+} 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* Team */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 #team{
-    background-color: royalblue;
+    background-color: #ffe6ac;
+    padding:10px;
+}
+#line{
+
 }
 .john{
     background-color:#ffe6ac;
+    width: 100%;
 }
 .bob {
     background-color:#ffe6ac ;
+    width:100%;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -371,6 +385,11 @@ td{
     padding:10px;
 }
 
+.mapEmbed{
+   padding: 0 50px 50px 50px;
+
+}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* Footer */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -378,16 +397,5 @@ td{
 footer{
     background-color: #222;
     color: #c78c06;
-    padding: 10px;
+    padding: 20px 0 20px 10px;
 }
-
-
-/* .team{
-    background-color: #FFE6AC;
-    margin-bottom: 5px;
-    padding-bottom: 5px;
-}
-.line{
-    padding: 5px;
-    margin:5px;
-} */
