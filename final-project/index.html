@@ -54,7 +54,10 @@
     </div>
     </header>
     <article class="about">
-    <img class="about_image" src="images/about-us.jpg" alt="about-us">  
+    <div>
+      <img class="about_image" src="images/about-us.jpg" alt="about-us">
+    </div>
+    <div>
     <h2>About Us</h2>
     <p>  
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
@@ -64,12 +67,16 @@
       pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
       deserunt mollit anim id est laborum.
     </p>
+  </div>
   </article> 
-  <article id="services">
+    <!-------------------------- Services ----------------------------------->
+
+  <article >
     <h2>Our Services</h2>
+<div class="services">
     <!-------------------------- Digital ----------------------------------->
 
-    <section class="digital">
+    <div class="digital">
       <img id="digital_image" src="images/digital.jpg" alt="digital">
       <h3>Digital Transformation</h3>
       <p>
@@ -82,9 +89,9 @@
       <div>
         <button class="service_button" type="submit"> Digital Plans<i class="icon icon-right"></i> </button> 
     </div>
-    </section>
+  </div>
     <!-------------------------- Marketing ----------------------------------->
-    <section class="marketing">
+    <div class="marketing">
       <img id="marketing_image" src="images/marketing.jpg" alt="marketing">
       <h3>Marketing</h3>
       <p>
@@ -97,9 +104,9 @@
       <div>
         <button class="service_button" type="submit"> Marketing Plans<i class="icon icon-right"></i> </button> 
     </div>
-    </section>
+  </div>
     <!-------------------------- Video ----------------------------------->
-    <section class="video">
+    <div class="video">
       <img id="video_image" src="images/video.jpg" alt="video">
       <h3>Video Production</h3>
       <p>
@@ -112,10 +119,10 @@
       <div>
         <button class="service_button" type="submit"> Video Plans<i class="icon icon-right"></i> </button> 
     </div>
-    </section>
+  </div>
     <!-------------------------- Web ----------------------------------->
 
-    <section  class="web">
+    <div  class="web">
       <img id="web_image" src="images/web.jpg" alt="web">
       <h3>Web Development</h3>
       <p>
@@ -128,10 +135,10 @@
       <div>
         <button class="service_button" type="submit">Web Plans<i class="icon icon-right"></i> </button> 
     </div>
-    </section>
+  </div>
     <!-------------------------- Print ----------------------------------->
 
-    <section class="print">
+    <div class="print">
       <img id="print_image" src="images/print.jpg" alt="print">
       <h3>Print</h3>
       <p>
@@ -144,8 +151,10 @@
       <div>
         <button class="service_button" type="submit">Print Plans<i class="icon icon-right"></i> </button> 
     </div>
-    </section>
-  </article> 
+  </div>
+</div>  
+</article> 
+
     <!-------------------------- Vision ----------------------------------->
 
     <section class="vision">
@@ -164,13 +173,15 @@
         </div>
     </section>
   
-  <article id="team">
+  <article class="team">
       <h2>Our Team</h2>
     <!-------------------------- John ----------------------------------->
-    <section >
-      <img class="john" src="images/john.jpg" alt="john">
-      <div class="line">
-      <h3>John Doe</h3>
+    <section class="john">
+      <div>
+        <img id="john_img" src="images/john.jpg" alt="john">
+      </div>
+      <div>
+        <h3>John Doe</h3>
         <h5>CEO and Co-owner</h5>
         <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora animi
@@ -183,9 +194,12 @@
     </section>
     <!-------------------------- Bob ----------------------------------->
 
-    <section >
-      <img class="bob" src="images/bob.jpg" alt="bob">
-      <h3>Bob Rite</h3>
+    <section class="bob">
+      <div>
+        <img id="bob_img" src="images/bob.jpg" alt="bob">
+      </div>
+      <div>
+        <h3>Bob Rite</h3>
         <h5>CFO and Co-owner</h5>
           <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora animi
@@ -194,58 +208,61 @@
               quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis 
               quaerat deleniti explicabo nisi?
           </p>
+      </div>
     </section>
  <!-------------------------- Contact ----------------------------------->
   </article> 
   <article id="contact">
     <h2> Contact Us</h2>
     <h4> Send us a message</h4>
-    <form action="contact.html" method="get" class="form"> 
-      <p>
-       <label for="fullname">Name</label>
-       <input type="text" id="fullname" required>
-      </p>
-      <p> 
-       <label for="email">Email</label>
-       <input type="text" id="email" required>
-      </p>
-      <p>
+    <div class="contact_container">
+      <form action="contact.html" method="get" class="form"> 
+        <p>
+        <label for="fullname">Name</label>
+        <input type="text" id="fullname" required>
+        </p>
+        <p> 
+        <label for="email">Email</label>
+        <input type="text" id="email" required>
+        </p>
+        <p>
         <label for="message">Message</label>
         <textarea name="message" id="message" rows="10"></textarea>  
         <!-- adding row="10" to increase the size of the text area without needing to adjust the padding inside the box-->
-      </p>
-      <div> 
-        <button id="submitbutton">Send</button>
-      </div>
-    </form>
-    <!-------------------------- Table ----------------------------------->
-  <section>
-    <h3> Hours of operation</h3>
-    <table class="table">
-      <thead>
-        <tr >
-          <th>Days</th>
-          <th>Hours</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Monday - Friday</td>
-          <td>9am - 6pm</td>
-        </tr>
-        <tr>
-          <td>Saturday - Sunday</td>
-          <td>Closed</td>
-        </tr>
-      </tbody>    
-    </table>
-  </section>
-
-    <!-------------------------- Map ----------------------------------->
-    <h3>Location</h3>
-    <div class="mapEmbed">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11216.227095672693!2d-75.757677!3d45.3476662!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce04540b77e3bb%3A0x9e246d934b6c6ed!2sAlgonquin%20College%20of%20Applied%20Arts%20and%20Technology!5e0!3m2!1sen!2sca!4v1637855122896!5m2!1sen!2sca" 
-      width="1200" height="450" style="border:10;" allowfullscreen="" loading="lazy"></iframe>
+        </p>
+        <div> 
+          <button id="submitbutton">Send</button>
+        </div>
+      </form>
+    
+      <!-------------------------- Table ----------------------------------->
+      <section>
+        <h3> Hours of operation</h3>
+        <table class="table">
+          <thead>
+            <tr >
+              <th>Days</th>
+              <th>Hours</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Monday - Friday</td>
+                <td>9am - 6pm</td>
+            </tr>
+            <tr>
+                <td>Saturday - Sunday</td>
+                <td>Closed</td>
+            </tr>
+          </tbody>    
+        </table>
+      </section>
+      <!-------------------------- Map ----------------------------------->
+        <div class="mapEmbed">
+          <h3>Location</h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11216.227095672693!2d-75.757677!3d45.3476662!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce04540b77e3bb%3A0x9e246d934b6c6ed!2sAlgonquin%20College%20of%20Applied%20Arts%20and%20Technology!5e0!3m2!1sen!2sca!4v1637855122896!5m2!1sen!2sca" 
+          width="500" height="450" style="border:10;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
     </div>
   </article>
 </main>
