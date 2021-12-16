@@ -11,7 +11,8 @@
 </head>
 <body >
 <!-------------------------- Start of Nav ----------------------------------->
-<article class="navbar">
+<div class="navbar">
+  
     <nav>
       <div class="logo">   
         <img src="images/logo.png" alt="logo">
@@ -27,13 +28,14 @@
 
     <form class="search" action="contact.html" method="get" > 
       <div>
-        <input type="text" id="searchbox" placeholder="Search"required>
+        <input type="text" id="searchbox" placeholder="Search" required>
         <button class="searchbutton"><i class="icon icon-zoom"></i></button>
       </div>
     </form>
-</article> 
+  </div> 
 <!---------------------------- Banner --------------------------------------->
 <main>
+<div class="container">
     <header>
     <div class="banner">
       <img class="banner_image" src="images/main-banner.jpg" alt="main-banner" id="bannerimg">              
@@ -73,7 +75,7 @@
 
   <article >
     <h2>Our Services</h2>
-<div class="services">
+  <div class="services">
     <!-------------------------- Digital ----------------------------------->
 
     <div class="digital">
@@ -152,8 +154,8 @@
         <button class="service_button" type="submit">Print Plans<i class="icon icon-right"></i> </button> 
     </div>
   </div>
-</div>  
-</article> 
+  </div>  
+  </article> 
 
     <!-------------------------- Vision ----------------------------------->
 
@@ -210,8 +212,9 @@
           </p>
       </div>
     </section>
- <!-------------------------- Contact ----------------------------------->
   </article> 
+  <!-------------------------- Contact ----------------------------------->
+  <div class="contact_us">
   <article id="contact">
     <h2> Contact Us</h2>
     <h4> Send us a message</h4>
@@ -236,7 +239,7 @@
       </form>
     
       <!-------------------------- Table ----------------------------------->
-      <section>
+      <section class="hours">
         <h3> Hours of operation</h3>
         <table class="table">
           <thead>
@@ -258,19 +261,20 @@
         </table>
       </section>
       <!-------------------------- Map ----------------------------------->
-        <div class="mapEmbed">
+        <div class="map">
           <h3>Location</h3>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11216.227095672693!2d-75.757677!3d45.3476662!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce04540b77e3bb%3A0x9e246d934b6c6ed!2sAlgonquin%20College%20of%20Applied%20Arts%20and%20Technology!5e0!3m2!1sen!2sca!4v1637855122896!5m2!1sen!2sca" 
-          width="500" height="450" style="border:10;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5530.614220079957!2d-75.75686618438486!3d45.35065438834549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1639532125190!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>        </div>
     </div>
   </article>
-</main>
+  </div>
   <footer class="footer"> 
     <small>&copy;Copyright Three Star Media, 2020</small> 
     <br>  
     <br>
     <small> all images are taken from <u>Unsplash</u></small>
   </footer>
+</div>
+</main>
+
 </body>
 </html>
