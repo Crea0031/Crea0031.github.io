@@ -429,14 +429,13 @@ footer{
     margin: 0 0 20px 0;
   }
   .banner{
-    height: 1040px;
   } 
 
   .title{     
     width: 800px;
     top:-600px;
     margin:auto;
-    position: relative;
+    position: absolute;
   }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* About */
@@ -500,20 +499,12 @@ footer{
     display:grid;
     grid-template-columns: 1fr 1fr;
   }
-  .display:nth-child(1){
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-template-rows: 2;
-}
 .bob{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
+    /* display:grid;
+    grid-template-columns: 1fr 1fr; */
+    float:right;
   }
-  .display:nth-child(1){
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-template-rows: 2;
-}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* Contact */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
