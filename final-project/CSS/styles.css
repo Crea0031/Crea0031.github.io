@@ -173,6 +173,7 @@ nav a:hover {
 .banner{
     background: #222;
     width:100%;
+    /* bottom: 800px; */
     
 }
 .banner_image {
@@ -427,11 +428,15 @@ footer{
     float:right;
     margin: 0 0 20px 0;
   }
+  .banner{
+    height: 1040px;
+  } 
 
   .title{     
     width: 800px;
+    top:-600px;
     margin:auto;
-    position: absolute;
+    position: relative;
   }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* About */
