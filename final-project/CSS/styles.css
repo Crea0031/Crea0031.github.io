@@ -177,25 +177,26 @@ nav a:hover {
     
 }
 .banner_image {
-    position: relative;
     width:100%;
     object-fit: contain;
 }
 .title{
     background-color:rgba(0, 0, 0, 0.5);
-    position:relative;
+    position:absolute;
     margin:auto;
-    /* height:400px; */
-    /* top: 500px; */
+    height:400px;
+    top: 500px;
     width: 100%;
     color:white;
     display:block;    
 }
+
+
 .connect{
     background-color:#c78c06;
     display:block;
-    position: relative;
-    /* top:300px; */
+    position: absolute;
+    top:300px;
     color:#222;
     border: none;
     padding: 30px 15px;
@@ -428,12 +429,12 @@ footer{
     margin: 0 0 20px 0;
   }
   .banner{
-    /* height: 1100px; */
+    height: 1100px;
   } 
 
   .title{     
     width: 800px;
-    /* top:-600px; */
+    top:-600px;
     margin:auto;
     position: relative;
   }
